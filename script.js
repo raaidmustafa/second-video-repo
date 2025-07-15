@@ -1,3 +1,4 @@
+
 console.log("hello world")
 //this is a code of no use 
 /*this code prints 'hello world' on the google chrome console
@@ -99,3 +100,13 @@ let AGE = 20;
 let result = AGE >= 18 ? "adult" : "minor";
 
 console.log("you are an", result);
+
+let fullname = prompt("hello there! What is your fullname?");
+if (fullname === "raaid mustafa") {
+    let a = prompt("Welcome back, Raaid Mustafa! How was your day");
+    a.toLocaleLowerCase();
+} else {
+    alert(fullname + " you are not raaid mustafa, therefore you will not be allowed to enter this page.");
+    alert("Have a good day " + fullname + "!");
+}
+  
