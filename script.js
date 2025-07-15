@@ -28,4 +28,21 @@ let g = 5;
 let h = 2;
 
 console.log("g != g", g != g);
-console.log("typeof g != g")
+
+const instagramprofile = {
+    username: "raaid_mustafa",
+    followers: 600,
+    following: 502,
+    fullname: "RaaidMustafa",
+    posts: 0,
+    bio: "WSM'26",
+    highlights: true,
+    isverified: false,
+    privateaccount: true,
+    website: "https://raaidmustafa.com"
+}
+    
+console.log(instagramprofile)
+
+
+    
