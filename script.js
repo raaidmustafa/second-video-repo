@@ -94,3 +94,8 @@ else
     color = "blue";
 
 console.log("The color is", color);
+
+let AGE = 20;
+let result = AGE >= 18 ? "adult" : "minor";
+
+console.log("you are an", result);
