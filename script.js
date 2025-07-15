@@ -60,4 +60,37 @@ console.log("k =", k)
 console.log("k != l", k != l)
 console.log("k - l", k - l)
 
-    
+//conditional statements
+let age = 25;
+if (age >= 18) 
+    console.log("You are eligible for the driving permit and will be redirected to the driving test.");
+else if (age < 18)
+    console.log("you are not eligible for the driving permit and will be redirected to the home page.");
+
+//random 3
+let input_digit = 12
+if (input_digit % 2 === 0) {
+    console.log("The number is even.");
+} else {
+    console.log("The number is odd.");
+}
+
+//random 4
+let input_number = 15.2
+if (input_number % 1 === 0)
+    console.log("The number is an integer.");
+else
+    console.log("The number is not an integer.");
+
+//random 5
+let mode = "dark";
+let color;
+
+if (mode === "dark") 
+    color = "black";
+else if (mode === "light") 
+    color = "white";
+else
+    color = "blue";
+
+console.log("The color is", color);
