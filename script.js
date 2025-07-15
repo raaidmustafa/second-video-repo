@@ -44,5 +44,20 @@ const instagramprofile = {
     
 console.log(instagramprofile)
 
+//random
+let i = 28
+let j = 42
+
+console.log("i++ =", i++)
+console.log("i =", i)
+
+//random 2
+let k = 10
+let l = 20
+
+console.log("--k =", --k)
+console.log("k =", k)
+console.log("k != l", k != l)
+console.log("k - l", k - l)
 
     
