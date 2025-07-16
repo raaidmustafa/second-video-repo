@@ -101,17 +101,39 @@ let result = AGE >= 18 ? "adult" : "minor";
 
 console.log("you are an", result);
 
-let fullname = prompt("hello there! What is your fullname?");
-if (fullname === "raaid mustafa") {
-    let a = prompt("Welcome Raaid Mustafa! How was your day?").toLowerCase();
-    if (a === "good") {
-        prompt("That's great to hear! But first I request you to enter the password in order to verify your identity.");
-    } else if (a === "bad") {
-        prompt("I'm sorry to hear that. How can I help make it better?");
-        prompt("Ofcourse, I can help you with that. But before I do that, it is necessary for you to enter the password in order to verify your identity.");
-    }
-} else {
-    alert("You are not Raaid Mustafa, therefore you will not be allowed to enter this page.");
-    alert("Have a good day!");
+
+  //loops
+let sum = 0;
+for (let i = 1; i <= 10; i++) {
+    sum += i;
 }
-  
+console.log("The sum is:", sum);
+
+let z = 2;
+console.log("++z =", ++z);
+console.log("z =", z);  
+
+/*random 6
+for (let num = 0; num <= 100; num++) {
+    if (num % 2 === 0) {
+        console.log(num);
+    }
+}
+
+for (num = 0; num <= 100; num++) {
+    if (num % 2 !== 0) {
+        console.log(num)
+    }
+}*/
+
+
+
+let gamenumber = 32;
+let guessnumber = prompt("welcome to the guessing game! guess a number between 1 and 50");
+let x = 0
+while (guessnumber != gamenumber) {
+    ++x;
+    guessnumber = prompt("Sorry, that's not correct. Try again. Attempt number :"+ x );    
+}    
+alert("Congratulations! You guessed the number correctly.");
+
