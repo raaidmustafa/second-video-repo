@@ -137,3 +137,14 @@ while (guessnumber != gamenumber) {
 }    
 alert("Congratulations! You guessed the number correctly.");
 
+
+let items = [250, 645 , 300, 900, 50];
+
+let y = 0;
+for (let val of items) {
+    console.log(`value at index ${y} = ${val}`);
+    let offer = 10 / 100 * val; // 10% offer
+    items[y] = items[y] - offer;
+    alert(`value after offer = ${items[y]}`);
+    y++;
+}
